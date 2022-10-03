@@ -1,0 +1,56 @@
+html, body{
+    margin: 0px;
+}
+
+header {
+    background-color: #27958f;
+    color: #fff;
+    width: 98%;
+    height: 200px;
+    margin: 1%;
+}
+
+header h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sansserif;
+    padding: 60px;
+    font-size: 50px;
+}
+    
+.wrapper {
+    background-color: #3f5d82;
+    width: 98%;
+    height: 400px;
+    margin: 1%;
+}
+.wrapper .page{
+    width: 23%;
+    height: 180px;
+    background-color: grey;
+    display: inline-block;
+    margin: 1% 0.6% 0.1% 1%;
+}
+
+footer {
+    background-color: #27958f;
+    color: #fff;
+    width: 98%;
+    height: 60px;
+    margin: 1%;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.image_link {
+    height: 170px;
+    width: 22vw;
+    margin: 1% 0 1% 1%;
+}
+
+.image_link:hover {
+    filter: grayscale(70%);
+}
+    
